@@ -1,7 +1,7 @@
 const assert = require('chai').assert;
 const chai = require('chai');
 const mocha = require('mocha');
-const server = require('../app2')
+const server = require('../App')
 const chaiHttp = require('chai-http');
 const { dbFunction } = require("../allFunction");
 const client = require('../db');
